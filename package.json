@@ -1,0 +1,15 @@
+{
+  "name": "super-simple-http",
+  "version": "0.0.0",
+  "description": "Super simple HTTP server example",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Jarrett Cruger",
+  "license": "MIT",
+  "dependencies": {
+    "ecstatic": "~0.4.0"
+  }
+}
