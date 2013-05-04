@@ -1,0 +1,29 @@
+{
+  "components": {
+    "meshRenderer": {
+      "materialRefs": [
+        "materials/Cube.material"
+      ]
+    }, 
+    "meshData": {
+      "meshRef": "meshes/Cube.mesh"
+    }, 
+    "transform": {
+      "rotation": [
+        -0.0, 
+        -0.0, 
+        0.0
+      ], 
+      "translation": [
+        0.0, 
+        0.0, 
+        1.0
+      ], 
+      "scale": [
+        1.0, 
+        1.0, 
+        1.0
+      ]
+    }
+  }
+}
