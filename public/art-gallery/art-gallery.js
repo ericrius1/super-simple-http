@@ -419,7 +419,7 @@ require([
 				uniforms.grayscale = value;
 			};
 			for (var key in uniforms) {
-				console.log(key, uniforms[key]);
+				console.log(keuy, uniforms[key]);
 
 				if (uniforms[key] instanceof Array) {
 					// WARNING Hack-ish, but meh, it's just a demo
@@ -857,8 +857,8 @@ require([
 		'void main(void)',//
 		'{',//
 		'	float power = dot(normalize(normal),lightDir)*0.5+0.5;',
-		'	vec3 col = vec3(1.0,0.5,0.05) * power * lightDist;',
-		'	vec3 col2 = vec3(1.0, 0.3,0.05) * vertDist;',
+		'	vec3 col = vec3(1.0,0.2,1.00) * power * lightDist;',
+		'	vec3 col2 = vec3(1.0, 0.2, 1.0) * vertDist;',
 		'	gl_FragColor = vec4(col2*1.0+col*1.0, 1.0);',//
 		'}'//
 		].join('\n')
