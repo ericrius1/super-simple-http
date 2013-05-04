@@ -1,15 +1,20 @@
 {
-  "name": "super-simple-http",
-  "version": "0.0.0",
+  "name": "GooTest",
+  "version": "0.0.0-4",
   "description": "Super simple HTTP server example",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": "",
   "author": "Jarrett Cruger",
   "license": "MIT",
   "dependencies": {
     "ecstatic": "~0.4.0"
+  },
+  "subdomain": "ericrius1",
+  "engines": {
+    "node": "0.8.x"
   }
 }
