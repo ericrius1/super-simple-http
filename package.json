@@ -1,6 +1,6 @@
 {
   "name": "GooTest",
-  "version": "0.0.0-4",
+  "version": "0.0.0-14",
   "description": "Super simple HTTP server example",
   "main": "server.js",
   "scripts": {
