@@ -472,7 +472,8 @@ require([
 			}
 		}, function() {
 			var material = Material.createMaterial(roomShader, 'art');
-			material.textures[1] = new TextureCreator().loadTexture2D(resourcePath + '/light_concrete.jpg');
+			 material.textures[1] = new TextureCreator().loadTexture2D(resourcePath + '/light_concrete.jpg');
+			//material.textures[1] = new TextureCreator().loadTexture2D("https://s3.amazonaws.com/GooStuff/Resources/art-gallery/resources/light_concrete.jpg");
 			return material;
 		});
 
@@ -531,7 +532,7 @@ require([
 					if (entities[i].meshDataComponent) {
 						var entity = entities[i];
 						var element = document.createElement('iframe');
-						element.setAttribute("src", "//www.goodemos.com");
+						element.setAttribute("src", "//ericrius1.jit.su/art-gallery/");
 						element.className = 'object assembly';
 
 						entity.transformComponent.transform.scale.set(0.78, 0.595, 1.0);
